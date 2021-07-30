@@ -46,7 +46,7 @@ export default function Contact() {
             </div>
             <div className='contact-info'>
               <h1>Address</h1>
-              <h2>GandhiNagar, Gwalior, Madhypradeh, India</h2>
+              <h2>GandhiNagar, Gwalior, Madhyapradesh, India</h2>
             </div>
           </div>
         </div>
