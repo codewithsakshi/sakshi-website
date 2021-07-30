@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Header.js';
+// import './header.scss';
 
 export default function Header() {
   const [isVisible, setIsVisible] = useState(false);

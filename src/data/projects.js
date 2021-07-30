@@ -12,6 +12,12 @@ const projects = [
       'https://codewithsakshi.github.io/exercises-v2/breakout-game/index.html',
   },
   {
+    title: 'Github profile',
+    description: '',
+    projectUrl:
+      'https://codewithsakshi.github.io/exercises/github-profiles/index.html',
+  },
+  {
     title: 'Movie seat booking ',
     description: '',
     projectUrl:
@@ -42,11 +48,12 @@ const projects = [
       'https://codewithsakshi.github.io/js-exercise/player-leaderboard/index.html',
   },
   {
-    title: 'Solar System',
+    title: 'Todo list',
     description: '',
     projectUrl:
-      'https://codewithsakshi.github.io/js-exercise/solar-sytem/index.html',
+      'https://codewithsakshi.github.io/exercises/todo-list/index.html',
   },
+
   {
     title: 'Drink water',
     description: '',
@@ -72,16 +79,16 @@ const projects = [
       'https://codewithsakshi.github.io/js-exercise/webform-validating/index.html',
   },
   {
+    title: 'Generate joke',
+    description: '',
+    projectUrl:
+      'https://codewithsakshi.github.io/exercises/generate-joke/index.html',
+  },
+  {
     title: 'Theme clock',
     description: '',
     projectUrl:
       'https://codewithsakshi.github.io/exercises/theme-clock/index.html',
-  },
-  {
-    title: 'Github profile',
-    description: '',
-    projectUrl:
-      'https://codewithsakshi.github.io/exercises/github-profiles/index.html',
   },
   {
     title: 'Choice picker',
@@ -102,16 +109,22 @@ const projects = [
       'https://codewithsakshi.github.io/exercises-v2/music-player/index.html',
   },
   {
-    title: 'Todo list',
-    description: '',
-    projectUrl:
-      'https://codewithsakshi.github.io/exercises/todo-list/index.html',
-  },
-  {
     title: 'Testimonial box',
     description: '',
     projectUrl:
       'https://codewithsakshi.github.io/exercises/testimonial-box/index.html',
+  },
+  {
+    title: 'Solar System',
+    description: '',
+    projectUrl:
+      'https://codewithsakshi.github.io/js-exercise/solar-sytem/index.html',
+  },
+  {
+    title: 'Image generator',
+    description: '',
+    projectUrl:
+      'https://codewithsakshi.github.io/exercises/random-image-generator/index.html',
   },
   {
     title: 'Quiz App',
@@ -162,6 +175,18 @@ const projects = [
       'https://codewithsakshi.github.io/exercises-v2/hangman/index.html',
   },
   {
+    title: 'Relaxer App',
+    description: '',
+    projectUrl:
+      'https://codewithsakshi.github.io/exercises-v2/relaxer-app/index.html',
+  },
+  {
+    title: 'Verify account',
+    description: '',
+    projectUrl:
+      'https://codewithsakshi.github.io/exercises/verify-account/index.html',
+  },
+  {
     title: 'Hidden search icon',
     description: '',
     projectUrl:
@@ -172,6 +197,36 @@ const projects = [
     description: '',
     projectUrl:
       'https://codewithsakshi.github.io/exercises/sound-board/index.html',
+  },
+  {
+    title: 'Password strength',
+    description: '',
+    projectUrl:
+      'https://codewithsakshi.github.io/exercises/password-strength-bg/index.html',
+  },
+  {
+    title: 'Double clicked',
+    description: '',
+    projectUrl:
+      'https://codewithsakshi.github.io/exercises/double-click-heart/index.html',
+  },
+  {
+    title: 'Menu slider modal',
+    description: '',
+    projectUrl:
+      'https://codewithsakshi.github.io/exercises-v2/menu-slider-modal/index.html',
+  },
+  {
+    title: 'split landing page',
+    description: '',
+    projectUrl:
+      'https://codewithsakshi.github.io/exercises/split-landing-page/index.html',
+  },
+  {
+    title: 'Drag image',
+    description: '',
+    projectUrl:
+      'https://codewithsakshi.github.io/exercises/drag-image/index.html',
   },
   {
     title: 'Survey form',
@@ -264,12 +319,6 @@ const projects = [
       'https://codewithsakshi.github.io/exercises/expanding-cards/index.html',
   },
   {
-    title: 'split landing page',
-    description: '',
-    projectUrl:
-      'https://codewithsakshi.github.io/exercises/split-landing-page/index.html',
-  },
-  {
     title: 'Historical places',
     description: '',
     projectUrl:
@@ -298,12 +347,6 @@ const projects = [
     description: '',
     projectUrl:
       'https://codewithsakshi.github.io/exercises/rotating-animation/index.html',
-  },
-  {
-    title: 'Image generator',
-    description: '',
-    projectUrl:
-      'https://codewithsakshi.github.io/exercises/random-image-generator/index.html',
   },
   {
     title: 'FAQ',
@@ -335,12 +378,6 @@ const projects = [
       'https://codewithsakshi.github.io/exercises/image-carouse/index.html',
   },
   {
-    title: 'Generate joke',
-    description: '',
-    projectUrl:
-      'https://codewithsakshi.github.io/exercises/generate-joke/index.html',
-  },
-  {
     title: 'National geographic',
     description: '',
     projectUrl:
@@ -365,12 +402,6 @@ const projects = [
       'https://codewithsakshi.github.io/exercises/animated-navigation/index.html',
   },
   {
-    title: 'Verify account',
-    description: '',
-    projectUrl:
-      'https://codewithsakshi.github.io/exercises/verify-account/index.html',
-  },
-  {
     title: 'Event Keycodes',
     description: '',
     projectUrl:
@@ -389,12 +420,6 @@ const projects = [
       'https://codewithsakshi.github.io/exercises/button-ripple-effect/index.html',
   },
   {
-    title: 'Drag image',
-    description: '',
-    projectUrl:
-      'https://codewithsakshi.github.io/exercises/drag-image/index.html',
-  },
-  {
     title: 'Vertical slider',
     description: '',
     projectUrl:
@@ -411,12 +436,6 @@ const projects = [
     description: '',
     projectUrl:
       'https://codewithsakshi.github.io/exercises/toast-notification/index.html',
-  },
-  {
-    title: 'Double clicked',
-    description: '',
-    projectUrl:
-      'https://codewithsakshi.github.io/exercises/double-click-heart/index.html',
   },
   {
     title: 'Custom range',
@@ -441,12 +460,6 @@ const projects = [
     description: '',
     projectUrl:
       'https://codewithsakshi.github.io/exercises/feedback-ui-design/index.html',
-  },
-  {
-    title: 'Password strength',
-    description: '',
-    projectUrl:
-      'https://codewithsakshi.github.io/exercises/password-strength-bg/index.html',
   },
   {
     title: 'Mob navigation',
@@ -483,12 +496,6 @@ const projects = [
     description: '',
     projectUrl:
       'https://codewithsakshi.github.io/exercises/sticky-navigation/index.html',
-  },
-  {
-    title: 'Menu slider modal',
-    description: '',
-    projectUrl:
-      'https://codewithsakshi.github.io/exercises-v2/menu-slider-modal/index.html',
   },
   {
     title: 'Lyrics search',
@@ -531,12 +538,6 @@ const projects = [
     description: '',
     projectUrl:
       'https://codewithsakshi.github.io/exercises-v2/newyear-countdown/index.html',
-  },
-  {
-    title: 'Relaxer App',
-    description: '',
-    projectUrl:
-      'https://codewithsakshi.github.io/exercises-v2/relaxer-app/index.html',
   },
   {
     title: 'Car landing page',
