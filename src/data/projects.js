@@ -152,13 +152,6 @@ const projects = [
       'https://codewithsakshi.github.io/exercises/good-cheap-fast/index.html',
   },
   {
-    title: 'Meal Finder App',
-    description:
-      'Search meal recipee which you want to cook and also know places from which they belong.',
-    projectUrl:
-      'https://codewithsakshi.github.io/exercises-v2/meal-finder/index.html',
-  },
-  {
     title: 'Speak number guess',
     description: 'Speak any number that you want and get awesome result.',
     projectUrl:
