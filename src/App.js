@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from './components/Header/Header.js';
 import About from './components/About/About.js';
 import Contact from './components/Contact/Contact.js';
@@ -7,6 +7,9 @@ import ProjectCards from './components/ProjectCards/ProjectCards';
 import './styles.css';
 
 function App() {
+  useEffect(() => {
+    document.title = 'Sakshi Mittal';
+  }, []);
   return (
     <div>
       <Header />

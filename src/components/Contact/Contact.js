@@ -20,8 +20,7 @@ export default function Contact() {
             </div>
             <div className='contact-info'>
               <h1>Phone</h1>
-              <h2>+91 3394095844</h2>
-              <h2>+91 5848849889</h2>
+              <h2>Not Available</h2>
             </div>
           </div>
           <div className='contact-item'>
@@ -34,7 +33,6 @@ export default function Contact() {
             <div className='contact-info'>
               <h1>Email</h1>
               <h2>sakshimittal3005@gmail.com</h2>
-              <h2>sakshimittal3005@gmail.com</h2>
             </div>
           </div>
           <div className='contact-item'>
@@ -46,7 +44,7 @@ export default function Contact() {
             </div>
             <div className='contact-info'>
               <h1>Address</h1>
-              <h2>GandhiNagar, Gwalior, Madhyapradesh, India</h2>
+              <h2>GandhiNagar, Gwalior, Madhya pradesh, India</h2>
             </div>
           </div>
         </div>
