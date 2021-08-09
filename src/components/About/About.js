@@ -23,11 +23,14 @@ export default function About() {
             but it's even more challenging to know what to do when you have'nt
             learned the basics.
           </p>
-          <button>
-            <a href='/sakshi_resume.pdf' className='cta' target='_blank'>
-              Download Resume
-            </a>
-          </button>
+
+          <a
+            href='/sakshi_resume.pdf'
+            className='cta resume-btn'
+            target='_blank'
+          >
+            Download Resume
+          </a>
         </div>
       </div>
     </div>

@@ -17,7 +17,6 @@ export default function Header() {
         <div className='nav-bar'>
           <div className='brand'>
             <Link to='hero' smooth={true} spy={true}>
-              {' '}
               <span>s</span>akshi <span>m</span>ittal
             </Link>
           </div>
@@ -29,50 +28,49 @@ export default function Header() {
               className={`header-links ${isVisible === true ? 'active' : ''}`}
             >
               <li>
-                {/* <a href='#hero' data-after='home'>
-                  home
-                </a> */}
-                <Link to='hero' smooth={true} onClick={handleClick} spy={true}>
+                <Link
+                  to='hero'
+                  className='link'
+                  smooth={true}
+                  onClick={handleClick}
+                  spy={true}
+                  data-after='home'
+                >
                   Home
                 </Link>
               </li>
-              {/* <li>
-                <a href='#services' data-after='services'>
-                  services
-                </a>
-                <Link to='services' smooth='true'>
-                  Services
-                </Link>
-              </li> */}
+
               <li>
-                {/* <a href='#projects' data-after='projects'>
-                  projects
-                </a> */}
                 <Link
                   to='projects'
+                  className='link'
                   smooth={true}
                   spy={true}
+                  data-after='projects'
                   onClick={handleClick}
                 >
                   Projects
                 </Link>
               </li>
               <li>
-                {/* <a href='#about' data-after='about'>
-                  about
-                </a> */}
-                <Link to='about' smooth={true} onClick={handleClick} spy={true}>
+                <Link
+                  to='about'
+                  className='link'
+                  smooth={true}
+                  onClick={handleClick}
+                  spy={true}
+                  data-after='about'
+                >
                   About
                 </Link>
               </li>
               <li>
-                {/* <a href='#contact' data-after='contact'>
-                  contact
-                </a> */}
                 <Link
                   to='contact'
                   smooth={true}
+                  className='link'
                   spy={true}
+                  data-after='contact'
                   onClick={handleClick}
                 >
                   Contact
