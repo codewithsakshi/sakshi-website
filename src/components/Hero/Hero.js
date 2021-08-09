@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import './hero.scss';
 
 export default function Hero() {
@@ -16,7 +17,9 @@ export default function Hero() {
             Sakshi<span></span>
           </h1>
           <button className='portfolio-btn'>
-            <a href='#projects'>Portfolio</a>
+            <Link to='projects' smooth={true}>
+              Portfolio
+            </Link>
           </button>
         </div>
       </div>

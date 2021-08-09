@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 
 export default function Header() {
   const [isVisible, setIsVisible] = useState(false);
@@ -6,14 +7,19 @@ export default function Header() {
     setIsVisible(!isVisible);
   };
 
+  // const handleSetActive = () => {
+  //   console.log('handle set Active');
+  //   setIsVisible(false);
+  // };
   return (
     <div id='header'>
       <div className='header container'>
         <div className='nav-bar'>
           <div className='brand'>
-            <a href='#hero'>
+            <Link to='hero' smooth={true} spy={true}>
+              {' '}
               <span>s</span>akshi <span>m</span>ittal
-            </a>
+            </Link>
           </div>
           <nav className='nav-list'>
             <div className='hamburger' onClick={handleClick}>
@@ -23,29 +29,54 @@ export default function Header() {
               className={`header-links ${isVisible === true ? 'active' : ''}`}
             >
               <li>
-                <a href='#hero' data-after='home'>
+                {/* <a href='#hero' data-after='home'>
                   home
-                </a>
+                </a> */}
+                <Link to='hero' smooth={true} onClick={handleClick} spy={true}>
+                  Home
+                </Link>
               </li>
-              <li>
+              {/* <li>
                 <a href='#services' data-after='services'>
                   services
                 </a>
-              </li>
+                <Link to='services' smooth='true'>
+                  Services
+                </Link>
+              </li> */}
               <li>
-                <a href='#projects' data-after='projects'>
+                {/* <a href='#projects' data-after='projects'>
                   projects
-                </a>
+                </a> */}
+                <Link
+                  to='projects'
+                  smooth={true}
+                  spy={true}
+                  onClick={handleClick}
+                >
+                  Projects
+                </Link>
               </li>
               <li>
-                <a href='#about' data-after='about'>
+                {/* <a href='#about' data-after='about'>
                   about
-                </a>
+                </a> */}
+                <Link to='about' smooth={true} onClick={handleClick} spy={true}>
+                  About
+                </Link>
               </li>
               <li>
-                <a href='#contact' data-after='contact'>
+                {/* <a href='#contact' data-after='contact'>
                   contact
-                </a>
+                </a> */}
+                <Link
+                  to='contact'
+                  smooth={true}
+                  spy={true}
+                  onClick={handleClick}
+                >
+                  Contact
+                </Link>
               </li>
             </ul>
           </nav>
