@@ -13,7 +13,7 @@ export default function ProjectCard() {
   ));
 
   return (
-    <div>
+    <div id='projects'>
       <h1 className='project-heading'>
         My recent <span>projects</span>
       </h1>

@@ -24,7 +24,7 @@ export default function About() {
             learned the basics.
           </p>
           <button>
-            <a href='#hero' className='cta'>
+            <a href='/sakshi_resume.pdf' className='cta' target='_blank'>
               Download Resume
             </a>
           </button>
