@@ -16,12 +16,13 @@ export default function About() {
           </h1>
           <h2>Front End Developer</h2>
           <p>
-            Hello, Recently i'm learning Web development & very passionate about
-            Web development and strive to better myself as a Developer.
+            I’ve been learning web development for some time and have created
+            interesting projects to showcase my skill set. I'm looking for an
+            entry-level job in the field.
             <br />
-            Learning to Program is hard. It's difficult to know where to start,
-            but it's even more challenging to know what to do when you have'nt
-            learned the basics.
+            Please do let me know if you come across any opportunities that fit
+            my skillset. Thanks a lot. My strong skill set is HTML, CSS,
+            JavaScript, Basic ReactJS, and TailwindCSS.
           </p>
 
           <a
