@@ -13,6 +13,7 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+
 a {
   text-decoration: none;
   color: var(--white-color);
@@ -52,6 +53,7 @@ span {
   text-transform: uppercase;
   padding: 10px;
   font-weight: 600;
+  cursor: pointer;
 }
 .nav-list ul {
   display: flex;
@@ -72,18 +74,19 @@ span {
 .nav-list ul.active {
   left: 0;
 }
-.nav-list ul li a {
+.nav-list ul li .link {
   font-size: 1.6rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: var(--white-color);
   display: block;
   padding: 1.2rem;
+  cursor: pointer;
 }
-.nav-list ul li a:hover {
+.nav-list ul li .link:hover {
   color: var(--crimson-color);
 }
-.nav-list ul li a::after {
+.nav-list ul li .link::after {
   content: attr(data-after);
   position: absolute;
   top: 50%;
@@ -95,7 +98,7 @@ span {
   transition: 0.3s ease letter-spacing;
   z-index: -1;
 }
-.nav-list ul li:hover a::after {
+.nav-list ul li:hover .link::after {
   transform: translate(-50%, -50%) scale(1);
   letter-spacing: initial;
 }

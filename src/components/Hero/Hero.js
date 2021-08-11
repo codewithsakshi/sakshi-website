@@ -16,11 +16,10 @@ export default function Hero() {
           <h1 className='sakshi'>
             Sakshi<span></span>
           </h1>
-          <button className='portfolio-btn'>
-            <Link to='projects' smooth={true}>
-              Portfolio
-            </Link>
-          </button>
+
+          <Link to='projects' smooth={true} className='portfolio-btn'>
+            Portfolio
+          </Link>
         </div>
       </div>
     </div>

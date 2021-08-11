@@ -1,5 +1,6 @@
 import React from 'react';
 import './contact.scss';
+// import SocialLinks from '../SocialLinks/SocialLinks';
 
 export default function Contact() {
   return (
