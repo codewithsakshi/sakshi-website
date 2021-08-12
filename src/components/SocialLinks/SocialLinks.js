@@ -1,6 +1,6 @@
 import React from 'react';
 import './SocialLinks.scss';
-import {} from 'react-i';
+// import {} from 'react-i';
 
 const GITHUB_URL = 'https://github.com/codewithsakshi';
 const TWITTER_URL = 'https://twitter.com/sakshimittal01';
@@ -10,9 +10,19 @@ const CODESANDBOX_URL = 'https://codesandbox.io/u/codewithsakshi';
 export default function SocialLinks() {
   return (
     <div className='social-links-container'>
-      <i class='bx bx-user'></i>
-      <i class='bx bxs-user'></i>
-      <i class='bx bxl-facebook-square'></i>
+      <a href={GITHUB_URL} target='_blank' rel='noreferrer'>
+        <i className='bx bxl-github'></i>
+      </a>
+      <a href={TWITTER_URL} target='_blank' rel='noreferrer'>
+        <i className='bx bxl-twitter'></i>
+      </a>
+      <a href={LINKEDIN_URL} target='_blank' rel='noreferrer'>
+        <i className='bx bxl-linkedin'></i>
+      </a>
+      <a href={CODESANDBOX_URL} target='_blank' rel='noreferrer'>
+        <i className='bx bxs-codesandbox'></i>
+      </a>
+      <div className='line'></div>
     </div>
   );
 }

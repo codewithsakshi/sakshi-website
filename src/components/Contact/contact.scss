@@ -14,13 +14,15 @@
 .contact-items-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-bottom: 30px;
 }
 
 .contact-item {
   flex: 1;
-  margin: 20px 15px 0;
+  max-width: 350px;
+  margin: 20px 0 0;
+  margin-left: 70px;
   display: flex;
   align-items: center;
   box-shadow: 0px 0px 18px 0 #0000002c;

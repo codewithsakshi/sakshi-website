@@ -7,10 +7,6 @@ export default function Header() {
     setIsVisible(!isVisible);
   };
 
-  // const handleSetActive = () => {
-  //   console.log('handle set Active');
-  //   setIsVisible(false);
-  // };
   return (
     <div id='header'>
       <div className='header container'>
