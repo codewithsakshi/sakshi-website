@@ -4,6 +4,7 @@ import About from './components/About/About.js';
 import Contact from './components/Contact/Contact.js';
 import Hero from './components/Hero/Hero.js';
 import ProjectCards from './components/ProjectCards/ProjectCards';
+import SocialLinks from './components/SocialLinks/SocialLinks';
 import './styles.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Hero />
       <ProjectCards />
       <About />
+      <SocialLinks />
       <Contact />
     </div>
   );
