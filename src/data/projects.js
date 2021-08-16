@@ -563,7 +563,7 @@ const projects = [
     description:
       'Online Coding school to learn Webdevelopment using Tailwind CSS.',
     projectUrl:
-      'https://codewithsakshi.github.io/learn-tailwind/src/exercises/lambda-coding-school/index.html',
+      'https://codewithsakshi.github.io/learn-tailwind/src/exercises/binary-coding-school/index.html',
   },
 ];
 
