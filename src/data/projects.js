@@ -1,5 +1,11 @@
 const projects = [
   {
+    title: 'Skateboard',
+    description:
+      'Skateboard project is a react application that is mainly built for mobile devices.',
+    projectUrl: 'https://skateboard.sakshimittal.xyz',
+  },
+  {
     title: '2048 Game',
     description:
       '2048 is a game where you combine numbered tiles in order to gain a higher numbered tile.',
@@ -563,7 +569,7 @@ const projects = [
     description:
       'Online Coding school to learn Webdevelopment using Tailwind CSS.',
     projectUrl:
-      'https://codewithsakshi.github.io/learn-tailwind/src/exercises/lambda-coding-school/index.html',
+      'https://codewithsakshi.github.io/learn-tailwind/src/exercises/binary-coding-school/index.html',
   },
 ];
 
