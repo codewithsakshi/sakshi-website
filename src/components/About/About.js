@@ -22,14 +22,16 @@ export default function About() {
           To work as a Frontend developer applying my
        knowledge in the field of Frontend design and
         development. I wish to work in a team of
-        motivated individuals who wish to work towards
-           the advancement of the company and its goals.
+     motivated individuals who wish to work towards
+       the advancement of the company and its goals.
          
           </p>
 
           <a
-            className='cta resume-btn'
-            target='_blank'
+          href="/resume.pdf"
+          rel='noreferrer'
+          className='cta resume-btn'
+          target='_blank'
             
           >
             Download Resume
