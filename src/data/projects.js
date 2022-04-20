@@ -1,11 +1,5 @@
 const projects = [
   {
-    title: 'Skateboard',
-    description:
-      'Skateboard project is a react application that is mainly built for mobile devices.',
-    projectUrl: 'https://skateboard.sakshimittal.xyz',
-  },
-  {
     title: '2048 Game',
     description:
       '2048 is a game where you combine numbered tiles in order to gain a higher numbered tile.',
