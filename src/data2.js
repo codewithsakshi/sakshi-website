@@ -1,6 +1,6 @@
 const data = [
   {
-    title: 'Your Cart',
+    title: 'Shopping Cart',
     description: 'It is cart of list of products that you may want to purchase.' ,
     projectUrl: 'https://csb-0brr8w.netlify.app/'
   },
@@ -47,12 +47,6 @@ const data = [
         description: 'Our Reviews is mainly made for the employee details and their employment Type.',
         projectUrl:
           'https://625da5e9d3dd480158c010c0--keen-babka-1cd1b0.netlify.app/',
-    },
-      {
-        title: 'Grocery Bud',
-        description: 'Enter text and listen in different language',
-        projectUrl:
-          '',
     },
     {
         title: 'Skateboard',
