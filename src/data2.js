@@ -1,5 +1,10 @@
 const data = [
   {
+    title: 'Alacart',
+    description: 'Alacart is a fruit basket to ordered food.' ,
+    projectUrl: 'https://alacart.sakshimittal.xyz'
+  },
+  {
     title: 'Shopping Cart',
     description: 'It is cart of list of products that you may want to purchase.' ,
     projectUrl: 'https://csb-0brr8w.netlify.app/'
@@ -8,7 +13,7 @@ const data = [
       title: 'Birthday Reminder',
       description:
         'Birthday Reminder is a react application that is mainly built for remember Birthdate.',
-      projectUrl: 'https://skateboard.sakshimittal.xyz',
+      projectUrl: '',
     },
     {
       title: 'Tab',
