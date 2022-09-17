@@ -32,7 +32,7 @@ export default function Contact() {
             </div>
             <div className='contact-info'>
               <h1>Address</h1>
-              <h2>Bengaluru, Karnataka, India</h2>
+              <h2>Bengaluru, India</h2>
             </div>
           </div>
         </div>
