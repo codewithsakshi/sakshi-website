@@ -7,7 +7,7 @@ export default function About() {
       <div className='about container'>
         <div className='col-left'>
           <div className='about-img'>
-            <img src='profileImg.jpg' alt='img' />
+            <img src='/profileImg.jpg' alt='img' />
           </div>
         </div>
         <div className='col-right'>
