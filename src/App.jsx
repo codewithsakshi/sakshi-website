@@ -14,9 +14,8 @@ function App() {
   return (
     <div>
       <Header />
-      <Hero />
-      <ProjectCards />
       <About />
+      <ProjectCards />
       <SocialLinks />
       <Contact />
     </div>
