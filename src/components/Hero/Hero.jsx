@@ -5,7 +5,7 @@ import './hero.scss';
 export default function Hero() {
   return (
     <div id='hero'>
-      <div className='hero container'>
+      {/* <div className='hero container'>
         <div>
           <h1>
             Hello,<span></span>
@@ -21,7 +21,7 @@ export default function Hero() {
             Portfolio
           </Link>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
