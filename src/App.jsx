@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
-import Header from './components/Header/Header.jsx';
-import About from './components/About/About.jsx';
-import Contact from './components/Contact/Contact.jsx';
-import Hero from './components/Hero/Hero.jsx';
-import ProjectCards from './components/ProjectCards/ProjectCards.jsx';
-import SocialLinks from './components/SocialLinks/SocialLinks.jsx';
+import Header from './components/Header.jsx';
+import About from './components/About.jsx';
+import Contact from './components/Contact.jsx';
+import Hero from './components/Hero.jsx';
+import ProjectCards from './components/ProjectCards.jsx';
+import SocialLinks from './components/SocialLinks.jsx';
 import './styles.css';
 
 function App() {
@@ -14,9 +14,9 @@ function App() {
   return (
     <div>
       <Header />
+      <Hero/>
       <About />
-      <ProjectCards />
-      <SocialLinks />
+      {/* <ProjectCards /> */}
       <Contact />
     </div>
   );

@@ -12,6 +12,16 @@ body {
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  background-color: #092635;
+  color: rgb(136, 146, 176)!important;
+}
+#logo{
+  color: rgb(100, 255, 218);
+}
+@media screen and (min-width: 650px) {
+  body{
+   padding: 0 40px;
+  }
 }
 
 a {

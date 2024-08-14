@@ -1,5 +1,4 @@
 import React from 'react';
-import './SocialLinks.scss';
 // import {} from 'react-i';
 
 const GITHUB_URL = 'https://github.com/codewithsakshi';
@@ -18,9 +17,6 @@ export default function SocialLinks() {
       </a>
       <a href={LINKEDIN_URL} target='_blank' rel='noreferrer'>
         <i className='bx bxl-linkedin'></i>
-      </a>
-      <a href={CODESANDBOX_URL} target='_blank' rel='noreferrer'>
-        <i className='bx bxs-codesandbox'></i>
       </a>
       <div className='line'></div> */}
     </div>
