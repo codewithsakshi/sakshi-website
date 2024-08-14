@@ -4,7 +4,7 @@ import './contact.scss';
 export default function Contact() {
   return (
     <div id='contact'>
-      <div className='contact container'>
+      {/* <div className='contact container'>
         <div>
           <h1 className='section-title'>
             Contact <span>info</span>
@@ -36,7 +36,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

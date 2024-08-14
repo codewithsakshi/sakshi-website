@@ -10,7 +10,7 @@ const CODESANDBOX_URL = 'https://codesandbox.io/u/codewithsakshi';
 export default function SocialLinks() {
   return (
     <div className='social-links-container'>
-      <a href={GITHUB_URL} target='_blank' rel='noreferrer'>
+      {/* <a href={GITHUB_URL} target='_blank' rel='noreferrer'>
         <i className='bx bxl-github'></i>
       </a>
       <a href={TWITTER_URL} target='_blank' rel='noreferrer'>
@@ -22,7 +22,7 @@ export default function SocialLinks() {
       <a href={CODESANDBOX_URL} target='_blank' rel='noreferrer'>
         <i className='bx bxs-codesandbox'></i>
       </a>
-      <div className='line'></div>
+      <div className='line'></div> */}
     </div>
   );
 }
